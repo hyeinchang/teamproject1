@@ -18,6 +18,8 @@
 	
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 
+	<resources mapping="/resources/**" location="/resources/" />
+	
 	
 	<!-- tiles configuration -->
 	<beans:bean id="tilesConfigurer"
@@ -26,7 +28,7 @@
 			<beans:list>
 				<beans:value>/WEB-INF/tiles/client_setting.xml</beans:value>
 				<beans:value>/WEB-INF/tiles/manager_setting.xml</beans:value>
-			</beans:list>
+			</beans:list>	
 		</beans:property>
 	</beans:bean>
 	

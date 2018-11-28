@@ -4841,11 +4841,19 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
+<<<<<<< HEAD
   background-color: white;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: gray;
+=======
+  background-color: #eee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+>>>>>>> refs/remotes/origin/Developer
 }
 .jumbotron p {
   margin-bottom: 15px;

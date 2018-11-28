@@ -2,13 +2,15 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>    
 <%@ page trimDirectiveWhitespaces="true" %>    
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
-</body>
+<!DOCTYPE html>
+<html lang="UTF-8">
+  <head>
+
+  </head>
+  <body>
+
+  </body>
 </html>
+
+  

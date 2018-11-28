@@ -1,0 +1,29 @@
+* {
+	font-family: 굴림;
+	
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: rgba(200,210,220,0.7);
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.jumbotron {
+	font-family: cursive;
+	color: rgba(255,255,255,0.8);
+	background-image: url("/resources/image/zummainlayoutheader2.jpg");
+}

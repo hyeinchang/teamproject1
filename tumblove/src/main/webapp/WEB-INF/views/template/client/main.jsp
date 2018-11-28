@@ -6,9 +6,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title><tiles:getAsString name="title"/></title>
 </head>
-<body>
+<body role="document">
+<header>
+<tiles:insertAttribute name="header"/>
+</header>
 
+<footer>
+<tiles:insertAttribute name="footer"/>
+</footer>
 </body>
 </html>

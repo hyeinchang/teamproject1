@@ -48,3 +48,19 @@ body {
 	color: rgba(255,255,0.9);
 	text-decoration: underline;
 }
+.navbar-brand a {
+	color: white;
+}
+
+#client_nav1 li a, #client_nav2 li a {
+	color: white;
+}
+#client_nav1 li a:hover, #client_nav2 li a:hover {
+	color: orange;
+}
+#client_nav_dropdown li a{
+	color: black;
+}
+#home1, #home2 {
+	color: rgba(80,100,255,0.8);
+}

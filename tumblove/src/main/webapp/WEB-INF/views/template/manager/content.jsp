@@ -6,9 +6,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title><tiles:getAsString name="title"/></title>
 </head>
 <body>
+<header>
+<tiles:insertAttribute name="header"/>
+</header>
 
+<section>
+<tiles:insertAttribute name="body"/>
+</section>
+
+<footer>
+<tiles:insertAttribute name="footer"/>
+</footer>
 </body>
 </html>

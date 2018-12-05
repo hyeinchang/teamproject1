@@ -24,17 +24,17 @@
   <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header" id="nav_home1">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Tumblove</a>
+          <a class="navbar-brand" id="home1" href="/"><strong>Tumblove</strong></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav" id="client_nav1">
             <li><a href="/">Home</a></li>
             <li><a href="/member/loginSession">로그인</a></li>
             <li><a href="/member/join/joinForm">회원가입</a></li>
@@ -43,7 +43,7 @@
             <li><a href="/mypage/mypage">마이페이지</a></li>
             <li class="dropdown">
               <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">고객센터 <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu" role="menu" id="client_nav_dropdown">
                 <li><a href="/notice/noticeList">공지사항</a></li>
                 <li><a href="/faq/faqList">자주 묻는 질문</a></li>
                 <li><a href="/qna/qna">Q&A</a></li>
@@ -72,10 +72,10 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><strong>Brand</strong></a>
+            <a class="navbar-brand" id="home2"><strong>Brand</strong></a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" id="client_nav2">
               <li><a href="/product/productList/starbucks">Starbucks</a></li>
               <li><a href="/product/productList/coffeebeen">Coffee Been</a></li>
               <li><a href="/product/productList/locknlock">Lock&Lock</a></li>

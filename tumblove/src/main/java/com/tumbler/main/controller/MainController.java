@@ -22,6 +22,8 @@ public class MainController {
 	
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String main(ProductVO pvo, Model model) {
+		String authority = "client";
+		model.addAttribute("authority", authority);
 		List<ProductVO> productMainList = service.productMainList(pvo);
 		List<ProductVO> productMainPopularList = service.productMainPopularList(pvo);
 		List<ProductVO> productMainNew = service.productMainNew(pvo);

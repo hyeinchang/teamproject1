@@ -2,19 +2,19 @@
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
 "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
 <tiles-definitions>
-	<definition name="basic" template="/WEB-INF/views/template/admin/contentLayout.jsp">
-		<put-attribute name="title" value="관리자 페이지"/>
-		<put-attribute name="header" value="/WEB-INF/views/template/admin/header.jsp"/>
-		<put-attribute name="sub" value="/WEB-INF/views/template/admin/sub.jsp"/>
-		<put-attribute name="left" value="/WEB-INF/views/template/admin/left.jsp"/>
-		<put-attribute name="main" value=""/>
+	<definition name="intro2" template="/WEB-INF/views/template/manager/main.jsp">
+		<put-attribute name="title" value="Tumblove"/>
+		<put-attribute name="header" value="/WEB-INF/views/template/manager/header.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/views/template/manager/footer.jsp"/>
 	</definition>
-	<definition name="admin/board/*" extends="basic">
-		<put-attribute name="sub" value=""/>
-		<put-attribute name="main" value="/WEB-INF/views/template/admin/board/{1}.jsp"/>
+	<definition name="content2" template="/WEB-INF/views/template/manager/content.jsp">
+		<put-attribute name="title" value="Tumblove"/>
+		<put-attribute name="header" value="/WEB-INF/views/template/manager/header.jsp"/>
+		<put-attribute name="body" value=""/>
+		<put-attribute name="footer" value="/WEB-INF/views/template/manager/footer.jsp"/>
 	</definition>
-	<definition name="admin/member/*" extends="basic">
-		<put-attribute name="sub" value="/WEB-INF/views/template/admin/member/memberSub.jsp"/>
-		<put-attribute name="main" value="/WEB-INF/views/template/admin/member/{1}.jsp"/>
+	<definition name="product/*" extends="content">
+		<put-attribute name="title" value="Tumblove"/>
+		<put-attribute name="body" value="/WEB-INF/views/product/{1}.jsp"/>
 	</definition>
 </tiles-definitions>

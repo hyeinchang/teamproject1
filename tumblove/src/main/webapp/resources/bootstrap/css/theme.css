@@ -5,7 +5,8 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
-  background-color: rgba(200,210,220,0.7);
+ /*  background-color: rgba(200,200,200,0.7); */
+ background-color: white;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -23,7 +24,27 @@ body {
 }
 
 .jumbotron {
-	font-family: cursive;
-	color: rgba(255,255,255,0.8);
-	background-image: url("/resources/image/zummainlayoutheader2.jpg");
+	font-family: fantasy;
+	/* color: rgba(240,100,100,0.92); */
+	/* background-image: url("/resources/image/zummainlayoutheader2.jpg"); */
+	/* background-color: rgba(2,2,20,0.2); */
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+}
+
+.jumbotron h1{
+	/* position: relative;
+	left: -60px;
+	margin: 0 0;
+	width: 1140px; */
+	margin: 0 auto;
+	width: 450px;
+	padding-top: 2px;
+	padding-bottom: 6px;
+	border-top: 7px double white;
+	border-bottom: 7px double white;
+	/* background-color: rgba(0,40,0,0.5); */
+	/* border-radius: 5px; */
+	color: rgba(255,255,0.9);
+	text-decoration: underline;
 }

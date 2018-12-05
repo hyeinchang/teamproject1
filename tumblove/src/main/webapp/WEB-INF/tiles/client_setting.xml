@@ -13,4 +13,8 @@
 		<put-attribute name="body" value=""/>
 		<put-attribute name="footer" value="/WEB-INF/views/template/client/footer.jsp"/>
 	</definition>
+	<definition name="product/*" extends="content">
+		<put-attribute name="title" value="Tumblove"/>
+		<put-attribute name="body" value="/WEB-INF/views/product/{1}.jsp"/>
+	</definition>
 </tiles-definitions>

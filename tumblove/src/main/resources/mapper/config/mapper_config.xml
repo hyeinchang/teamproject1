@@ -16,7 +16,7 @@
 		<typeAlias type="com.tumbler.manager.faq.vo.FaqVO" alias="manager_faq"/>
 		<typeAlias type="com.tumbler.manager.member.vo.MemberVO" alias="manager_member"/>
 		<typeAlias type="com.tumbler.manager.notice.vo.NoticeVO" alias="manager_notice"/>
-		<typeAlias type="com.tumbler.manager.product.vo.ProductVO" alias="manager_product"/>
+		<typeAlias type="com.tumbler.manager.product.vo.ManagerProductVO" alias="manager_product"/>
 		<typeAlias type="com.tumbler.manager.qna.vo.QnaVO" alias="manager_qna"/>
 		<typeAlias type="com.tumbler.manager.review.vo.ReviewVO" alias="manager_review"/>
 		<typeAlias type="com.tumbler.manager.stats.vo.ChartVO" alias="manager_chart"/>
